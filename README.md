@@ -16,6 +16,9 @@ Here are relevant parameters in the generation:
     Side width of each representative volume L = 10 m;
     Density-related term alpha = 0.32; 0.8; 1.6; 2.4; 3.2; 4.0
 
+In this repository, the generated datasets "DNF_InnermostLayer.zip" for 10 realizations of the innermost layer (alpha = 4.0) are provided.
+
+
 
 2) Calculation of fracture deformation and thus stress changes according to the specific boundary conditions, given applied far-field stress. In this part, "Main_Func_Stress_Variations.m" is used for simulations. Please go to this file and relevant functions for more details.
 
