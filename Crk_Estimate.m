@@ -1,6 +1,6 @@
 function [Crk_inf,Critical_inf,NonCri_inf] = Crk_Estimate(Crk_num,Crk_len,Crk_mu,Crk_Orien,Shear_G,PoissonRatio,Sigma_xx,Sigma_yy,Sigma_xy,k_s,k_n,Pp,Dila_coe)
-%CRICRK_ESTIMATE 此处显示有关此函数的摘要
-%   此处显示详细说明
+% Input stress conditions and fracture constitutive parameters
+% Output fracture information in a matrix "Crk_inf"
 Crk_inf = zeros(Crk_num,14); % Crk_No,Crk_len, Crk_mu, Crk_Orien,Crack km (local matrix-fracture stiffness),Stress drop,Relative displacement vector, Normal_stress, Shear stress, fracture shear stress, mean displacement, tao_p <---> All cracks
 Crk_inf(:,1) = linspace(1,Crk_num,Crk_num)';
 Crk_inf(:,2) = Crk_len;
