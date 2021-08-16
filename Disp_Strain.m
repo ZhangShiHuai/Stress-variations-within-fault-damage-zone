@@ -1,6 +1,7 @@
 function [D_Epsilon ] = Disp_Strain(Length,Width,Crk_len,Mean_disp_Shear,Mean_disp_Normal,Normal_Vector,Disp_UnitVector)
-%DISP_STRAIN �˴���ʾ�йش˺�����ժҪ
+% Project fracture displacements onto the element boundary and calculate the model strain.
 %   Pollard & Segall, 1987
+%   Kachanov, 1992
 
 Disp_Vector =Mean_disp_Shear*Disp_UnitVector+Mean_disp_Normal*Normal_Vector;
 
