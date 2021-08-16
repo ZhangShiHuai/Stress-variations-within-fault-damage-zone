@@ -22,6 +22,7 @@ Here are relevant parameters in the generation:
 
 
 References:
+
 Kim, T. H. (2007). Fracture characterization and estimation of fracture porosity of naturally fractured reservoirs with no matrix porosity using stochastic fractal models. Texas A&M University.
 
 Zhang, S., & Ma, X. (2021).How does in situ stress rotate within a fault zone? Insights from explicit modeling of the frictional, fractured rock mass. Journal of Geophysical Research: Solid Earth.
