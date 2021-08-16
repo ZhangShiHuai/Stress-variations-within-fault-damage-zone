@@ -1,6 +1,6 @@
 function [ Crk_inf_temp, Delta_Epsilon] = Unloading(Length_update,Width_update,Sigma_xx,Sigma_yy,Sigma_xy,New_Crk_inf,Crk_num,k_s,k_n,Pp)
-%UNLOADING 此处显示有关此函数的摘要
-%   此处显示详细说明
+% UNLOADING behavior of fractures.
+%  
 Far_StressTensor=[Sigma_xx Sigma_xy;
                   Sigma_xy Sigma_yy;];  
 Crk_inf_temp = New_Crk_inf;
