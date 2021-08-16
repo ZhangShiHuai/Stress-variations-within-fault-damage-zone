@@ -1,7 +1,7 @@
 % This program generates 2D fractal fracture networks by means of
 % Multiplicative cascade process.
 % Refering the article "Connectivity properties of two-dimensional fracture
-% networks with stochastic fractal correlation.
+% networks with stochastic fractal correlation".
 % Input Units: [m] for DFN
 % [mm] for aperture
 % Internal calculation units: All unit will be transformed to [m]
