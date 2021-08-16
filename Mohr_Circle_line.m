@@ -1,6 +1,6 @@
 function [c] = Mohr_Circle_line( sigma1, sigma3)
-%MOHR_CIRCLE �˴���ʾ�йش˺�����ժҪ
-%   �˴���ʾ��ϸ˵��
+%Plot Mohr circle in line.
+%
 Mohr_angle = linspace(0,pi,10000)';
 Mohr_Center = (sigma1+sigma3)/2;
 Mohr_Radius = (sigma1-sigma3)/2;
