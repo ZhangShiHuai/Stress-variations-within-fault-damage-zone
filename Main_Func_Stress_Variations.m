@@ -1,7 +1,14 @@
+% This is the main function for simulations of stress variations in fault zone rock mass.
+%
+%
+% Shihuai Zhang, December 2020, @ETH Zurich
+% Email: zhangshi@ethz.ch
+%        shihuaizhang.xh1@gmail.com
+%%
 ouput = zeros(10,6);
 FracElasticStrain_Final = zeros(10,1);
 FracPlasticStrain_Final = zeros(10,1);
-for ii =1%:10
+for ii =1:10 % 10 realizations for one layer
 % Basic inputs and Model Set-up
 % ************************* Model information
 Length = 10;
