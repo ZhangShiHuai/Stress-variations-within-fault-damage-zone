@@ -1,5 +1,5 @@
 function [ Strain_tensor ] = Strain_Solver(Sigma_xx, Sigma_yy, Sigma_xy, PoissonRatio, Young_Modulus)
-%CONSTITUTIVERELATIONS 
+% Calculate strain tensor with known stresses according to Hooke's law
 %   Plane strain
 Comp_mat = ((1-PoissonRatio^2)/Young_Modulus)*[1 -PoissonRatio/(1-PoissonRatio) 0;
                                                -PoissonRatio/(1-PoissonRatio) 1 0;
