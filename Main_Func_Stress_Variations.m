@@ -1,9 +1,14 @@
 % This is the main function for simulations of stress variations in fault zone rock mass.
 %
+% Reference: Zhang, S., & Ma, X. (2021).How does in situ stress rotate within a fault zone?
+% Insights from explicit modeling of the frictional, fractured rock mass
+% Journal of Geophysical Research: Solid Earth.
 %
-% Shihuai Zhang, December 2020, @ETH Zurich
+% By Shihuai Zhang, December 2020, @ETH Zurich
 % Email: zhangshi@ethz.ch
 %        shihuaizhang.xh1@gmail.com
+%
+%
 %%
 ouput = zeros(10,6);
 FracElasticStrain_Final = zeros(10,1);
